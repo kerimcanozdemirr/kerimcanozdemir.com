@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Kerim Can Özdemir - Kişisel Web Sitesi</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Kerim Can Özdemir - Kişisel Web Sitesi">
+    <meta name="keywords" content="Kerim Can Özdemir, Kerim Can Özdemir, Kerim Can Özdemir, Kerim Can Ozdemir.com">
+    <meta name="author" content="Kerim Can Özdemir">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+        p {
+            font-size: 16px;
+        }
+        .margin {
+            margin-bottom: 45px;
+        }
+        .bg-1 {
+            background-color: #2dde98; /* Green */
+            color: #ffffff; /* black */
+        }
+        .bg-2 {
+            background-color: #474e5d; /* Dark Blue */
+            color: #ffffff;
+        }
+        .bg-3 {
+            background-color: #8878e1; /* Light Blue */
+            color: #ffffff;
+        }
+        .bg-4 {
+            background-color: #a781dd; /* Blue Diamond */
+            color: #fff;
+        }
+        .bg-5 {
+            background-color: #ffffff; /* White */
+            color: #000000;
+        }
+        .container-fluid {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        .navbar-nav li a:hover {
+            color: #4C3173 !important;
+        }
+        .text-left {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Kerim Can Özdemir</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#Anasayfa-Hakkımda">Anasayfa-Hakkımda</a></li>
+                    <li><a href="#Projeler">Projeler</a></li>
+                    <li><a href="#Anket">Anket</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- First Container -->
+    <div id="Anasayfa-Hakkımda" class="container-fluid bg-1 text-center">
+        <h3 class="margin"></h3>
+        <p>Adım Kerim Can Soyadım Özdemir. 25 Mayıs 2003 Bursa/Osmangazi'de doğdum. Düzce Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği 1. sınıf öğrencisiyim.</p>
+    </div>
+    <!-- Second Container -->
+    <div id="Projeler" class="container-fluid bg-2 text-center">
+        <h3 class="margin">Projeler</h3>
+        <p>Henüz bir projem yok fakat çalışmalarım devam ediyor; kendimi bu alanda geliştirip iyi bir mühendis olmak istiyorum.</p>
+    </div>
+    <!-- Third Container (Grid) -->
+    <div id="Anket" class="container-fluid bg-3 text-center">
+        <h3 class="margin">Anket</h3>
+        <div class="row">
+            <div class="col-sm-6">
+                <form>
+                    <fieldset>
+                        <p>Bu web sayfasını beğendiniz mi?</p>
+                        <input type="radio" name="anket-1"/>Evet, beğendim. <br>
+                        <input type="radio" name="anket-1"/>Biraz daha geliştirilmesi gerek. <br>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <form name="" action="" method="">
+                    <h2>Şikayet ve Önerilerinizi Yazınız</h2>
+                    <table border="1">
+                        <tr>
+                            <td>Adı Soyadı *</td>
+                            <td><input type="text" name="" size="40" required/></td>
+                        </tr>
+                        <tr>
+                            <td>E-Posta Adresi *</td>
+                            <td><input type="email" name="" size="40" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Mesajınız *</td>
+                            <td><textarea name="" rows="7" style="width: 100%" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" value="GÖNDER"/></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="iletisim" class="container-fluid bg-5 text-center">
+        <h3 class="margin">İletişim</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-5 text-left">
+                <p>Merhaba demek ister misin?</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Düzce, TR</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +90 544 265 6878</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> kerimcan2416@gmail.com</p>
+                <p>instagram : <a href=https://www.instagram.com/kcanzzdemir
+                    target="_blank">@kcanzzdemir </a>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
